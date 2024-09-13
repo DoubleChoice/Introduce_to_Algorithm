@@ -8,7 +8,7 @@ vector<int> arr({ 5,2,4,6,1,3 });
 void insert_sort(vector<int>& arr) {
 	for (int j = 1; j < arr.size(); j++) {
 		int i = j - 1, temp = arr[j];
-		while (i>=0 && arr[i] < temp) {  #just change the operator
+		while (i>=0 && arr[i] < temp) {  //just change the operator
 			arr[i + 1] = arr[i];
 			i--;
 		}
